@@ -103,3 +103,14 @@ button:focus-visible {
   border: none;
   cursor: pointer;
 }
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.student p {
+  margin: 0;
+}
