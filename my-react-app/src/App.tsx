@@ -4,6 +4,7 @@ import Food from "./Food.tsx";
 import Card from "./Card.tsx";
 import Button from "./Button.tsx";
 import Student from "./Student.tsx";
+import UserGreeting from "./UserGreeting.tsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Student name="Squidward" age={50} isStudent={false} />
       <Student name="Sandy" age={27} isStudent={true} />
       <Student />
+      <UserGreeting isLoggedIn={true} username="Caleb" />
       <Footer />
     </>
   );
