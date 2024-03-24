@@ -10,6 +10,8 @@ import ButtonEvent from "./ButtonEvent.tsx";
 import ProfilePicture from "./ProfilePicture.tsx";
 import MyComponent from "./MyComponent.tsx";
 import Counter from "./Counter.tsx";
+import MyComponent2 from "./MyComponent2.tsx";
+import ColorPicker from "./ColorPicker.tsx";
 
 interface Item {
   id: number;
@@ -52,6 +54,8 @@ function App() {
       <ProfilePicture />
       <MyComponent />
       <Counter />
+      <MyComponent2 />
+      <ColorPicker />
       <Footer />
     </>
   );
