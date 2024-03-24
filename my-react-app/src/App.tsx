@@ -5,8 +5,35 @@ import Card from "./Card.tsx";
 import Button from "./Button.tsx";
 import Student from "./Student.tsx";
 import UserGreeting from "./UserGreeting.tsx";
+import List from "./List.tsx";
+import ButtonEvent from "./ButtonEvent.tsx";
+import ProfilePicture from "./ProfilePicture.tsx";
+import MyComponent from "./MyComponent.tsx";
+import Counter from "./Counter.tsx";
+
+interface Item {
+  id: number;
+  name: string;
+  calories: number;
+  category?: string;
+}
 
 function App() {
+
+  const fruits: Item[] = [
+    { id: 1, name: "apple", calories: 110 },
+    { id: 2, name: "banana", calories: 15 },
+    { id: 3, name: "strawberry", calories: 25 },
+    { id: 4, name: "orange", calories: 63 },
+    { id: 5, name: "pear", calories: 50 },
+  ];
+  const vegetables: Item[] = [
+    { id: 6, name: "potatoes", calories: 110 },
+    { id: 7, name: "celery", calories: 15 },
+    { id: 8, name: "carrots", calories: 25 },
+    { id: 9, name: "corn", calories: 63 },
+    { id: 10, name: "brocolli", calories: 50 },
+  ];
   return (
     <>
       <Header />
@@ -19,6 +46,12 @@ function App() {
       <Student name="Sandy" age={27} isStudent={true} />
       <Student />
       <UserGreeting isLoggedIn={true} username="Caleb" />
+      {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+      {fruits.length > 0 && <List items={vegetables} category="Vegetables" />}
+      <ButtonEvent />
+      <ProfilePicture />
+      <MyComponent />
+      <Counter />
       <Footer />
     </>
   );
