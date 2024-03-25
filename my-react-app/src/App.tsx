@@ -17,6 +17,7 @@ import MyComponent4 from "./MyComponent4.tsx";
 import MyComponent5 from "./MyComponent5.tsx";
 import MyComponent6 from "./MyComponent6.tsx";
 import ToDoList from "./ToDoList.tsx";
+import MyComponent7 from "./MyComponent7.tsx";
 
 interface Item {
   id: number;
@@ -66,6 +67,7 @@ function App() {
       <MyComponent5 />
       <MyComponent6 />
       <ToDoList />
+      <MyComponent7 />
       <Footer />
     </>
   );
