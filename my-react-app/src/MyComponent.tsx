@@ -1,5 +1,5 @@
 //To use a React Hook, import it:
-import React, { useState } from "react";
+import { useState } from "react";
 
 function MyComponent() {
   //create a stateful name variable and a setter function to update that variable:

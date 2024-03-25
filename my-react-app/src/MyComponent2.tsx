@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function MyComponent2() {
   //create name variable, default "Guest"
