@@ -14,6 +14,7 @@ import MyComponent2 from "./MyComponent2.tsx";
 import ColorPicker from "./ColorPicker.tsx";
 import MyComponent3 from "./MyComponent3.tsx";
 import MyComponent4 from "./MyComponent4.tsx";
+import MyComponent5 from "./MyComponent5.tsx";
 
 interface Item {
   id: number;
@@ -60,6 +61,7 @@ function App() {
       <ColorPicker />
       <MyComponent3 />
       <MyComponent4 />
+      <MyComponent5 />
       <Footer />
     </>
   );
