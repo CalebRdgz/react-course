@@ -183,15 +183,15 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.counter-button:hover{
+.counter-button:hover {
   background-color: rgb(0, 157, 209);
 }
 
-body{
+/* body{
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-.color-picker-container{
+.color-picker-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,7 +202,7 @@ h1 {
   font-size: 3rem;
 }
 
-.color-display{
+.color-display {
   width: 300px;
   height: 300px;
   display: flex;
@@ -220,27 +220,27 @@ h1 {
   text-align: center;
 }
 
-label{
+label {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-input[type="color"]{
+/* input[type="color"] {
   width: 75px;
   height: 50px;
   padding: 5px;
   border-radius: 10px;
   border: 3px solid gray;
-}
+} */
 
-.to-do-list{
+.to-do-list {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-top: 100px;
 }
 
-h1{
+h1 {
   font-size: 4rem;
 }
 
@@ -255,42 +255,42 @@ button {
   transition: background-color 0.5s ease;
 }
 
-.add-button{
+.add-button {
   background-color: green;
 }
 
-.add-button:hover{
+.add-button:hover {
   background-color: rgb(0, 104, 0);
 }
 
-.delete-button{
+.delete-button {
   background-color: red;
 }
 
-.delete-button:hover{
-  background-color: rgb(185, 0, 0)
+.delete-button:hover {
+  background-color: rgb(185, 0, 0);
 }
 
-.move-button{
+.move-button {
   background-color: blue;
 }
 
-.move-button:hover{
-  background-color: rgb(0, 0, 193)
+.move-button:hover {
+  background-color: rgb(0, 0, 193);
 }
 
-input[type="text"]{
+/* input[type="text"] {
   font-size: 1.6rem;
   padding: 10px;
   border: 2px solid;
   border-radius: 5px;
-}
+} */
 
-ol{
+ol {
   padding: 0;
 }
 
-li{
+li {
   font-size: 2rem;
   font-weight: bold;
   padding: 15px;
@@ -302,12 +302,48 @@ li{
   align-items: center;
 }
 
-.text{
+.text {
   flex: 1;
 }
 
-.delete-button, .move-button{
+.delete-button,
+.move-button {
   padding: 8px 12px;
   font-size: 1.4rem;
   margin-left: 10px;
+}
+
+body {
+  /* background-image: url(assets/animalcrossingbg.png); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.clock span {
+  backdrop-filter: blur(5px);
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  text-shadow: 3px 3px 5px black;
+}
+
+.clock-container{
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.box{
+  border: 3px solid;
+  padding: 25px;
 }

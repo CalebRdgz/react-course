@@ -18,6 +18,11 @@ import MyComponent5 from "./MyComponent5.tsx";
 import MyComponent6 from "./MyComponent6.tsx";
 import ToDoList from "./ToDoList.tsx";
 import MyComponent7 from "./MyComponent7.tsx";
+import MyComponent8 from "./MyComponent8.tsx";
+import DigitalClock from "./DigitalClock.tsx";
+import ComponentA from "./ComponentA.tsx";
+import MyComponent9 from "./MyComponent9.jsx";
+import Stopwatch from "./Stopwatch.jsx"
 
 interface Item {
   id: number;
@@ -68,6 +73,11 @@ function App() {
       <MyComponent6 />
       <ToDoList />
       <MyComponent7 />
+      <MyComponent8 />
+      <DigitalClock />
+      <ComponentA />
+      <MyComponent9 />
+      <Stopwatch />
       <Footer />
     </>
   );
